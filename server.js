@@ -5,8 +5,8 @@ const port = 3333
 const { OAuth2Client } = require('google-auth-library')
 const client = new OAuth2Client(
   {
-    clientId: '779849225665-todbd5jpcjl216fpduvnbv84brrq0qtv.apps.googleusercontent.com',
-    clientSecret: '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',
+    clientId: 'clientId',
+    clientSecret: 'clientSecret',
     redirectUri: 'http://localhost'
   }
 )
